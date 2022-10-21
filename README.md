@@ -60,6 +60,10 @@ Nowadays I am studing Multiplatform Applications Development ( <a href='https://
 
 Throughout this academic path, I have been learning on my own programming basics and other technologies such as Operating Systems, how networks work, etc.
 
+<p align='center'>
+   <img alt='Mandalorian' width='350px'  src="https://media3.giphy.com/media/6UFgdU9hirj1pAOJyN/giphy.gif" />
+</p>
+
 </details>
 
 #
