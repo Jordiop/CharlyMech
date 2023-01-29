@@ -45,10 +45,13 @@ header {
 	left: 0;
 }
 
-#logo > img:first-child {
-	width: 200px;
+#tags {
+	transition: 0.1s;
+}
+
+#tags:hover {
+	width: 250px;
 	height: auto;
-	z-index: 2;
 }
 
 nav {
@@ -84,6 +87,17 @@ nav ul li a {
 nav ul li a:hover {
 	color: #ddd;
 	font-size: medium;
+}
+
+#lang-select {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+option {
+	background-color: #232323;
+	margin: 10%;
 }
 
 /* MAIN */
