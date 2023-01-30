@@ -1,3 +1,7 @@
+/* 
+	By convention, this file is ment to be assigned to index.html file (in this case for every language index.html file)
+	Some styles will be inherited as they are common in other files (header, main and footer will be the same)
+*/
 * {
 	font-family: "Montserrat", sans-serif;
 	color: #aaa;
