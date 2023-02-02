@@ -112,7 +112,6 @@ main {
 }
 
 #photo {
-	/* background-color: aquamarine; */
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -142,12 +141,12 @@ main {
 	align-items: center;
 }
 
-#title {
+#right-text {
 	margin: auto;
 }
 
-#title h1,
-#title h3 {
+#right-text h1,
+#right-text h3 {
 	color: #ddd;
 }
 
