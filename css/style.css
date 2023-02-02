@@ -130,7 +130,7 @@ main {
 	box-shadow: -1vw 0 5em #333333, 0 1vh 5em #1b1b1b, 0 -1vh 5em #1b1b1b;
 }
 
-#intro {
+#right-text {
 	position: absolute;
 	right: 0;
 	width: 45%;
