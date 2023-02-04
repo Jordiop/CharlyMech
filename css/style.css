@@ -17,7 +17,6 @@ body {
 
 /* HEADER */
 header {
-	background-color: #131313 !important;
 	position: sticky;
 	top: 0;
 	left: 0;
@@ -112,29 +111,27 @@ main {
 }
 
 #left-content {
-	background-color: aquamarine;
 	position: absolute;
 	display: flex;
 	align-items: center;
 	justify-items: end;
 	left: 0;
-	width: 55%;
+	width: 45vw;
 	height: inherit;
-	padding: 10vh 0 10vh 10vw;
+	padding: 0 5vw;
 }
 
 #left-content img {
-	width: 75%;
+	width: 80%;
 	height: auto;
 	border-radius: 40%;
 	box-shadow: -1vw 0 5em #333333, 0 1vh 5em #1b1b1b, 0 -1vh 5em #1b1b1b;
 }
 
 #right-text {
-	background-color: blue;
 	position: absolute;
 	right: 0;
-	width: 45%;
+	width: 35vw;
 	height: inherit;
 	padding: 0 8vw 0 2vw;
 	margin: 0 auto;
@@ -146,6 +143,7 @@ main {
 #right-text h1,
 #right-text h3 {
 	color: #ddd;
+	font-size: x-large;
 }
 
 /* FOOTER */
