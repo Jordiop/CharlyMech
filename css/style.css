@@ -112,6 +112,7 @@ main {
 }
 
 #left-content {
+	background-color: aquamarine;
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -130,6 +131,7 @@ main {
 }
 
 #right-text {
+	background-color: blue;
 	position: absolute;
 	right: 0;
 	width: 45%;
