@@ -27,13 +27,12 @@ header {
 }
 
 #logo {
+	width: 50vw;
+	height: inherit;
+	padding: 0;
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 50%;
-	height: inherit;
-	display: flex;
-	align-items: center;
 }
 
 #logo a {
@@ -41,20 +40,24 @@ header {
 }
 
 #logo img {
-	width: 200px;
-	height: auto;
-	position: relative;
-	top: 0;
-	left: 0;
+	position: absolute;
+	top: 1vh;
+	left: 2vw;
+	width: 10vw;
+	height: 7.5vh;
+	z-index: 1;
+
+	background: linear-gradient(-45deg, #aaa 40%, #fff 0 60%, #000 0) right/300%
+			100% no-repeat,
+		linear-gradient(-45deg, #0000 40%, #aaa 0 60%, #0000 0) right/300% 100%
+			no-repeat;
+	-webkit-background-clip: text, padding-box;
+	background-clip: text, padding-box;
+	transition: 0.8s;
 }
 
-#tags {
-	transition: 0.1s;
-}
-
-#tags:hover {
-	width: 250px;
-	height: auto;
+#logo img:hover {
+	background-position: left;
 }
 
 nav {
@@ -64,7 +67,7 @@ nav {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 50%;
+	width: 50vw;
 	height: inherit;
 }
 
