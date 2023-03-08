@@ -1,0 +1,87 @@
+main {
+	width: 100%;
+	height: auto;
+}
+
+section {
+	position: relative;
+	left: 0;
+	display: flex;
+	transition: 0.2s;
+}
+
+section:hover {
+	border: 0.25em solid #ddd;
+	border-radius: 1em;
+	background-color: #202020;
+}
+
+/* WORK IMAGE */
+section .w-img {
+	width: 30%;
+	display: flex;
+	padding: 1em;
+}
+
+section .w-img img {
+	width: 80%;
+	border-radius: 1em;
+}
+
+/* WORK CONTAINER */
+section .w-container {
+	width: 70%;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section .w-container ul {
+	width: 50%;
+	list-style: none;
+}
+
+li .item-title {
+	color: #ddd;
+	font-size: 3vh;
+	font-weight: 900;
+	padding: 1vh 0;
+}
+
+li .item-title a {
+	color: #ddd;
+	font-size: 3vh;
+	font-weight: 900;
+}
+
+li .item-title a:hover {
+	color: #ddd;
+	font-size: 3vh;
+	font-weight: 900;
+}
+
+li .item-container {
+	display: grid;
+	text-align: left;
+	margin: 2vh 0;
+}
+
+.item-container .charge {
+	grid-column: 0/3;
+	grid-row: 1;
+}
+
+.item-container .location {
+	grid-column: 2/3;
+	grid-row: 1;
+}
+.item-container .year {
+	grid-column: 3/3;
+	grid-row: 1;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+}
