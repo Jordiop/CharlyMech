@@ -180,7 +180,7 @@ h1[id="hello"] {
 }
 
 #moving-hand {
-	animation: moving 3sinfinite;
+	animation: moving 3s infinite;
 	font-size: larger;
 	display: inline-block;
 }
