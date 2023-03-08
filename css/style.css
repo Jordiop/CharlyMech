@@ -11,6 +11,9 @@
 	padding: 0;
 }
 
+/* Import font only fot this page styles */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap");
+
 body {
 	background-color: #131313 !important;
 }
@@ -139,15 +142,74 @@ main {
 	height: inherit;
 	padding: 0 8vw 0 2vw;
 	margin: 0 auto;
-	text-align: justify;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
-#right-text h1,
-#right-text h3 {
+h1[id="hello"] {
+	font-family: "Fira Code", monospace;
+	font-size: 5em;
 	color: #ddd;
-	font-size: x-large;
+}
+
+#hello {
+	position: relative;
+	margin-bottom: 1em;
+}
+
+#hello::after {
+	content: "|";
+	position: absolute;
+	right: 0;
+	color: #ddd;
+	background-color: #131313;
+	width: 100%;
+	animation: typing 3s steps(13) alternate infinite;
+}
+
+@keyframes typing {
+	to {
+		width: 0%;
+	}
+}
+
+#welcome {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#moving-hand {
+	animation: moving 3sinfinite;
+	font-size: larger;
+	display: inline-block;
+}
+
+@keyframes moving {
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(14deg);
+	}
+	20% {
+		transform: rotate(-8deg);
+	}
+	30% {
+		transform: rotate(14deg);
+	}
+	40% {
+		transform: rotate(-4deg);
+	}
+	50% {
+		transform: rotate(10deg);
+	}
+	60% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
 }
 
 /* FOOTER */
