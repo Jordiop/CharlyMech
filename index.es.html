@@ -2,11 +2,110 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<!-- TAB icon -->
+		<link
+			rel="icon"
+			href="https://icongr.am/clarity/computer.svg?size=128&color=currentColor"
+		/>
+		<!-- Line Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+		/>
+		<!-- Google Fonts Monstserrat -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Portfolio de Carlos</title>
 	</head>
 	<body>
-		ESPAÑOL
+		<header>
+			<select
+				name="language"
+				id="lang-select"
+				onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);"
+			>
+				<option value="index.en.html">🇬🇧 Inglés</option>
+				<option value="index.es.html" selected>🇪🇸 Español</option>
+			</select>
+		</header>
+		<main>
+			<div id="img-container">
+				<img src="img/carlos_profile.jpg" alt="Carlos' photo" />
+			</div>
+			<div id="text-container">
+				<h1>Carlos Sánchez Recio</h1>
+				<h3>@CharlyMech</h3>
+				<p>
+					Estudiante de Desarrollo de Aplicaciones Multiplataforma (<a
+						href="https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html"
+						target="_blank"
+						>DAM<i class="las la-external-link-alt"></i></a
+					>) y graduado en Administración de Sistemas Informáticos en Red
+					(<a
+						href="https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/admin-sist-informaticos-red.html"
+						target="_blank"
+						>ASIR<i class="las la-external-link-alt"></i></a
+					>)
+				</p>
+			</div>
+			<div id="socials">
+				<ul>
+					<li>
+						<a href="https://github.com/CharlyMech" target="_blank">
+							<div class="social">
+								<i class="lab la-github la-3x"></i>
+								<p class="social-text">Perfil de GitHub</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a
+							href="https://www.linkedin.com/in/carlos-sanchez-recio-77a286243/"
+							target="_blank"
+						>
+							<div class="social">
+								<i class="lab la-linkedin-in la-3x"></i>
+								<p class="social-text">Perfil de LinkedIn</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a
+							href="https://www.instagram.com/charly.mech/"
+							target="_blank"
+						>
+							<div class="social">
+								<i class="lab la-instagram la-3x"></i>
+								<p class="social-text">Perfil de GitHub</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="develpment.html" target="_blank">
+							<div class="social">
+								<i class="las la-code la-3x"></i>
+								<p class="social-text">Proyectos Personales</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</main>
+		<footer>
+			<a
+				href="https://github.com/CharlyMech/CharlyMech.github.io"
+				target="_blank"
+				>Repositorio de Github de esta página
+				<i class="lab la-github la-lg"></i
+			></a>
+		</footer>
 	</body>
 </html>
