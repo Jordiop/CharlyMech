@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+	color: #ddd;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	/* 
+		Image link:
+		https://wallpapercave.com/wp/wp9116447.jpg
+	*/
+	background-image: url("img/bg-image.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* HEADER */
+header {
+	height: 7.5vh;
+	padding: 2vh 3vw;
+}
+
+header select {
+	background-color: #131313;
+	padding: 0.5em;
+	margin: auto 0;
+	font-weight: 700;
+	border-radius: 0.5em;
+	float: right;
+}
+
+/* MAIN */
+main {
+	width: 100%;
+	height: 85vh;
+	padding: 1em;
+	margin: 0;
+	text-align: center;
+}
+
+#img-container {
+	width: 50%;
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#img-container img {
+	width: 17.5em;
+	height: auto;
+	border: 5px solid #d4d4d4;
+	border-radius: 50%;
+}
+
+#text-container {
+	background-color: #131313cc;
+	width: 65%;
+	padding: 2em 4em;
+	border-radius: 1em;
+	transition: 1s;
+}
+
+#text-container h1,
+h3 {
+	margin: 1vh 0;
+}
+
+#text-container p {
+	margin: 3vh 0;
+}
+
+#socials {
+	width: 50%;
+	padding: 1em;
+	margin-top: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#socials ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+#socials ul li {
+	display: inline;
+	margin: 0 3vw;
+}
+
+#socials ul li a {
+	text-decoration: none;
+	color: #ddd;
+}
+
+.social {
+	padding: 1.5em;
+	border-radius: 1em;
+	border: 2px solid #d4d4d400;
+	cursor: pointer;
+	transition: 0.25s;
+}
+
+.social-text {
+	opacity: 0;
+	transition: 0.25s;
+}
+
+.social:hover {
+	background-color: #131313aa;
+	border: 2px solid #d4d4d4;
+}
+
+.social:hover > .social-text {
+	opacity: 1;
+}
+
+/* FOOTER */
+footer {
+	height: 7.5vh;
+	padding: 0.5em;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
