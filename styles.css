@@ -28,6 +28,7 @@ header select {
 	padding: 0.5em;
 	margin: auto 0;
 	font-weight: 700;
+	border: 0px;
 	border-radius: 0.5em;
 	float: right;
 }
