@@ -1,12 +1,15 @@
 * {
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
-	color: #ddd;
+	color: var(--white);
 	margin: 0 auto;
 	padding: 0;
 }
 
 :root {
+	--black: #131313;
+	--black-fade: #131313cc;
+	--white: #d4d4d4;
 	--bar-width: 50px;
 	--bar-height: 7px;
 	--hamburger-gap: 5px;
@@ -46,7 +49,6 @@ aside {
 	display: flex;
 	flex-direction: column;
 	gap: var(--hamburger-gap);
-	/* background-color: red; TEST PURPOSES */
 	width: max-content;
 	z-index: 2;
 	cursor: pointer;
@@ -58,11 +60,12 @@ aside {
 	content: "";
 	width: var(--bar-width);
 	height: var(--bar-height);
-	background-color: #ddd;
+	background-color: var(--white);
 	border-radius: 1em;
 	transform-origin: left center;
 	transition: opacity var(--animation-timing), rotate var(--animation-timing),
-		translate var(--animation-timing), width var(--animation-timing);
+		translate var(--animation-timing), width var(--animation-timing),
+		background-color var(--animation-timing);
 }
 
 #hamburger-menu input {
@@ -90,6 +93,27 @@ aside {
 	width: 0;
 }
 
+#sidebar {
+	transition: translate var(--animation-timing);
+	translate: -100%;
+	padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
+	background-color: var(--black-fade);
+	color: var(--white);
+	max-width: 70vw;
+	min-height: 100vh;
+}
+
+#hamburger-menu:has(input:checked) + #sidebar {
+	translate: 0;
+}
+
+/* NAV FOOTER */
+#nav-footer {
+	padding: var(--hamburger-margin);
+	position: absolute;
+	bottom: 0;
+}
+
 /* HEADER */
 header {
 	height: 7.5vh;
@@ -97,7 +121,7 @@ header {
 }
 
 header select {
-	background-color: #131313;
+	background-color: var(--black);
 	padding: 0.5em;
 	margin: auto 0;
 	font-weight: 700;
@@ -126,12 +150,12 @@ main {
 #img-container img {
 	max-width: 17.5em;
 	height: auto;
-	border: 5px solid #d4d4d4;
+	border: 5px solid var(--white);
 	border-radius: 50%;
 }
 
 #text-container {
-	background-color: #131313cc;
+	background-color: var(--black-fade);
 	width: 65%;
 	padding: 2em 4em;
 	border-radius: 1em;
@@ -169,7 +193,7 @@ h3 {
 
 #socials ul li a {
 	text-decoration: none;
-	color: #ddd;
+	color: var(--white);
 }
 
 .social {
@@ -186,8 +210,8 @@ h3 {
 }
 
 .social:hover {
-	background-color: #131313aa;
-	border: 2px solid #d4d4d4;
+	background-color: var(--black-fade);
+	border: 2px solid var(--white);
 }
 
 .social:hover > .social-text {
@@ -196,6 +220,7 @@ h3 {
 
 /* FOOTER */
 footer {
+	display: block;
 	height: 7.5vh;
 	padding: 0.5em;
 	display: flex;
@@ -216,6 +241,11 @@ footer {
 	}
 
 	#socials {
+		display: none;
+	}
+
+	/* FOOTER */
+	footer {
 		display: none;
 	}
 }
