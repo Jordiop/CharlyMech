@@ -10,6 +10,6 @@
 				 margin-right: auto;"/>
 </h3>
 
-<span style="font-size:2em;">&#128587;&#127997;</span>
+### <span style="font-size:2em;">&#128587;&#127997;</span>
 
-<p style="font-size:1.3em;">&emsp;&emsp;My name is Carlos, a code passionate and programmer from Spain :es: </p>
+&emsp;&emsp;<font size="5">My name is Carlos, a code passionate and programmer from Spain :es:</font>
