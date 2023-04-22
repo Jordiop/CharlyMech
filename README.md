@@ -2,7 +2,7 @@
 												 margin-left: auto;
 												 margin-right: auto;"/></h3>
 
-<p style="align:center; margin: 0 auto; font-family:'Courier New'; font-size:2.5em">&lt;Hello World!<img  src="img/moving_hand.gif" style="width:1em;" />/&gt;</p>
+<p align="center" style="font-family:'Courier New'; font-size:2.5em">&lt;Hello World!<img  src="img/moving_hand.gif" style="width:1em;" />/&gt;</p>
 
 <h3><img src="https://img.shields.io/badge/year_version-2023-informational" 
 		style="display: block;
