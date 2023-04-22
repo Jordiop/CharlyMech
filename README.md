@@ -2,7 +2,7 @@
 												 margin-left: auto;
 												 margin-right: auto;"/></h3>
 
-<font align="center" size="6">&lt;Hello World!<img  src="img/moving_hand.gif" style="width:1em;" />/&gt;</font>
+<!-- <font align="center" size="6">&lt;Hello World!<img  src="img/moving_hand.gif" style="width:1em;" />/&gt;</font> -->
 
 <p align="center" style="font-family:'Courier New'; font-size:28pt">&lt;Hello World!<img  src="img/moving_hand.gif" style="width:1em;" />/&gt;</p>
 
