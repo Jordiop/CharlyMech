@@ -1,8 +1,8 @@
-<img src="img/CharlyMech.png" style="display: block;
+<h1><img src="img/CharlyMech.png" style="display: block;
 												 margin-left: auto;
-												 margin-right: auto;"/>
+												 margin-right: auto;"/></h1>
 
-<div style="text-align:center; margin: 0 auto; font-family:'Courier New'; font-size:2.5em">&lt;Hello World!<img  src="img/moving_hand.gif" style="width:1em;" />/&gt;</div>
+<h1 style="text-align:center; margin: 0 auto; font-family:'Courier New'; font-size:2.5em">&lt;Hello World!<img  src="img/moving_hand.gif" style="width:1em;" />/&gt;</h1>
 
 <h1><img src="https://img.shields.io/badge/year_version-2023-informational" 
 		style="display: block;
