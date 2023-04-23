@@ -4,7 +4,7 @@
 												 margin-left: auto;
 												 margin-right: auto;"/></h3>
 
-## <span>&#128587;&#127997;</span>
+## <span>&#128587;&#127997; About me</span>
 
 &emsp;My name is Carlos, a code passionate and programmer from Spain :es:. Mainly a self taught programmer, currently studying [DAM](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html "DAM") at [CESUR Mallorca](https://www.cesurformacion.com/fp-mallorca "CESUR Mallorca"). Also graduated in [ASIR](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/admin-sist-informaticos-red.html "ASIR") at [IES Sa Colomina](https://iessacolomina.es/ "IES Sa Colomina") in 2022.
 
