@@ -27,3 +27,9 @@
 <div align="center">
 
 <a href="https://www.linkedin.com/in/carlos-sanchez-recio-77a286243"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white"/></a> &nbsp; <a href="mailto:sanchezreciocarlos99@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a> &nbsp; <a href="https://www.instagram.com/charly.mech/"><img src="https://img.shields.io/badge/-@charly.mech_-E4405F?style=flat&logo=Instagram&logoColor=white"/></a> &nbsp; <a href="https://twitter.com/charly_mech"><img src="https://img.shields.io/badge/-@charly_mech_-1DA1F2?style=flat&logo=Twitter&logoColor=white"/></a> &nbsp; <a href="https://www.youtube.com/channel/UCi2h48kV2_b4OkR8DKCV1wQ"><img src="https://img.shields.io/badge/-@CharlyMech_-c4302b?style=flat&logo=Youtube&logoColor=white"/></a> &nbsp;
+
+<br>
+<br>
+<h3><img src="img/walkie_ducky.gif" style="display: block;
+												 margin-left: auto;
+												 margin-right: auto;"/></h3>
