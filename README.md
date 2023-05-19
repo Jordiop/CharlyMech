@@ -20,6 +20,8 @@
 
 <img height="140px" src="https://github-readme-stats.vercel.app/api?username=CharlyMech&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&line_height=20&text_color=D3D3D3&title_color=7A7ADB&icon_color=2234AE&bg_color=0,101010,130F40" /><img height="140px" widht="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CharlyMech&hide=html&hide_title=true&hide_border=true&layout=compact&text_color=D3D3D3&icon_color=fff&bg_color=0,130F40,101010" />
 
+<img height="200px" src="https://github-readme-streak-stats.herokuapp.com/?user=CharlyMech&hide_border=true&theme=gruvbox&date_format=j%20M%5B%20Y%5D&background=0D0A2B&fire=2234AE&ring=7A7ADB&sideLabels=D3D3D3&stroke=2234AE&currStreakNum=D3D3D3&sideNums=7A7ADB&currStreakLabel=7A7ADB&dates=D3D3D3" />
+
 </div>
 
 ## :mailbox_with_mail: How to reach me
