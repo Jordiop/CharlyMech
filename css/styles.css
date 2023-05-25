@@ -23,7 +23,7 @@ body {
 		Image link:
 		https://wallpapercave.com/wp/wp9116447.jpg
 	*/
-	background-image: url("img/bg-image.jpg");
+	background-image: url("/img/bg-image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
