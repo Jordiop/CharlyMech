@@ -12,6 +12,7 @@ header {
 	left: 0;
 	width: 100%;
 	transition: 0.25s;
+	z-index: 1;
 }
 
 #home-page {
