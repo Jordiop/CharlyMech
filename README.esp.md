@@ -1,6 +1,6 @@
 [Inglés](./README.md) | [Español](./README.esp.md)
 
-# <img src="./img/CharlyMech.png" width=17% align=right /> Hola mundo! Me llamo Carlos
+# <img src="./img/CharlyMech.png" width=12.5% align=right /> Hola mundo! Me llamo Carlos
 
 ##### Desarrollador de Software Júnior
 
