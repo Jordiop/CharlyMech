@@ -40,7 +40,7 @@ Specialized in mobile app development, also familiar with backend development an
 
 ## 📈 My Work
 
-![](./profile-3d-contrib/profile-night-green-animate.svg)
+![](./profile-3d-contrib/profile-night-green.svg)
 
 ## 📫 Contact
 
