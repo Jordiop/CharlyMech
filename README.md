@@ -2,10 +2,10 @@
 
 # <img src="./img/CharlyMech.png" width=12.5% align=right /> Hello wolrd! I'm Carlos
 
-##### Junior Software Developer
+#### Junior Software Developer
 
 <!-- TODO: kb content link! -->
-
+<br/><br/>
 <a href="#" target="_blank"><img src="./img/odin75_banner.jpg" 
    borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'></a>
 
