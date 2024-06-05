@@ -1,6 +1,6 @@
 [English](./README.md) | [Spanish](./README.esp.md)
 
-# <img src="./img/CharlyMech.png" width=12.5% align=right /> Hello wolrd! I'm Carlos
+# <img src="./img/CharlyMech.png" width=12.5% align=right /> Hello world! I'm Carlos
 
 #### Junior Software Developer
 
