@@ -2,10 +2,11 @@
 
 # <img src="./img/CharlyMech.png" width=12.5% align=right /> Hola mundo! Me llamo Carlos
 
-##### Desarrollador de Software Júnior
+#### Desarrollador de Software Júnior
 
 <!-- TODO: kb content link! -->
 
+<br/><br/>
 <a href="#" target="_blank"><img src="./img/odin75_banner.jpg" 
    borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'></a>
 
