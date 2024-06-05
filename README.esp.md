@@ -40,7 +40,9 @@ Especializado en desarrollo de aplicaciones móviles, también familizarizado co
 
 ## 📈 Mi trabajo
 
-![](./profile-3d-contrib/profile-green-animate.svg)
+<!-- ![3d Contributions](.) -->
+
+![](.gi/profile-3d-contrib/profile-night-green-animate.svg)
 
 ## 📫 Contacto
 
