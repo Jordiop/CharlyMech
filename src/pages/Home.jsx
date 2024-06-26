@@ -1,13 +1,11 @@
-import { Container } from '@mui/material';
-
-export default function Home() {
+function Home() {
 	return (
 		<>
-			<Container maxWidth="sm" sx={{
-				backgroundColor: 'blue'
-			}}>
+			<section style={{ backgroundColor: 'red' }}>
 				<p>HOME</p>
-			</Container>
+			</section>
 		</>
 	);
 }
+
+export default Home
