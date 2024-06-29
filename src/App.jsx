@@ -7,14 +7,13 @@ function App() {
 
   return (
     <>
-      <Container disableGutters maxWidth="true" className="App">
+      <Container className='App' disableGutters maxWidth='true'>
         <NavigationBar />
-        <main className="main-content">
+        <main>
           <Home />
         </main>
-        <Footer />
-      </Container >
-
+        <footer><Footer /></footer>
+      </Container>
     </>
   )
 }
