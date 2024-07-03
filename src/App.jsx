@@ -1,19 +1,18 @@
-import { Container } from '@mui/material';
 import { NavigationBar, Footer } from './components/components.js';
 import { Home, Skills, About, Contact } from './pages/pages.js';
-import "./styles/App.css";
+import "./App.css";
 
 function App() {
 
   return (
     <>
-      <Container className='App' disableGutters maxWidth='true'>
-        <NavigationBar />
+      <div className='App'>
+        <nav><NavigationBar /></nav>
         <main>
           <Home />
         </main>
         <footer><Footer /></footer>
-      </Container>
+      </div>
     </>
   )
 }

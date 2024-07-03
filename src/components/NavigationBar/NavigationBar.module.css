@@ -1,16 +1,5 @@
-.NavAppbar {
-	position: fixed;
-	top: 0;
-	min-width: 100vw;
-	height: 100px;
-	z-index: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.Nav {
-	max-width: 750px;
+.NavigationBar {
+	min-width: 750px;
 	padding: 15px;
 	background-color: #393c40d5;
 	border-radius: 100px;
@@ -18,14 +7,14 @@
 	backdrop-filter: blur(10px);
 }
 
-ul {
+.NavigationList {
 	list-style-type: none;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
 
-li {
+.NavigationItem {
 	color: #fafafa;
 	opacity: 0.5;
 	font-weight: bold;
@@ -33,6 +22,6 @@ li {
 	transition: 300ms;
 }
 
-li:hover {
+.NavigationItem:hover {
 	opacity: 1;
 }

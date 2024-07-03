@@ -19,6 +19,18 @@ main {
 	padding: 120px 300px 0 300px;
 }
 
+nav {
+	position: fixed;
+	top: 0;
+	min-width: 100vw;
+	height: 100px;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+
 /* *Not responsive for now
 @media (max-width: 1200px) {
 
