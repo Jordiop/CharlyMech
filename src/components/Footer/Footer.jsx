@@ -1,19 +1,26 @@
-import className from './Footer.module.css' //!
+import style from './Footer.module.css' //!
+import socialMedia from '../../models/SocialMedia'; //!
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function Footer() {
 	return (
 		<>
-			<div className={className.Footer}>
-				<div className={className.FooterContent}>
-					<h3>Pages</h3>
-					<ul className={className.Pages}>
-						<li>Home</li>
-						<li>My skills</li>
-						<li>About me</li>
-						<li>Contact me</li>
+			<div className={style.Footer}>
+				<div className={style.SocialMedia}>
+					<ul className={style.SocialMediaList}>
+						{
+							socialMedia.map((social, index) => (
+								<li className={style.Social} key={index}>
+									<a href={social.link} target={social.target}>
+										<span><FontAwesomeIcon icon={social.icon} /></span> {social.name}
+									</a>
+								</li>
+							))
+						}
 					</ul>
 				</div>
-				<div className={className.CopyRight}>
+				<div className={style.CopyRight}>
 					<p>© 2024 Carlos Sánchez Recio. All rights reserved.</p>
 				</div>
 			</div>
