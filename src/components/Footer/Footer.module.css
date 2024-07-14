@@ -8,7 +8,8 @@
 	background-color: #1a1d1f;
 
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
+	align-items: end;
 }
 
 .SocialMedia {
@@ -31,8 +32,7 @@
 	padding: 0.5em 1em 0.5em 1em;
 	font-size: 20px;
 	cursor: pointer;
-	border: 0.1rem solid transparent;
-	border-radius: 15px;
+	border-bottom: 0.1rem solid transparent;
 	transition: 300ms;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .CopyRight {
-	padding: 0 0 1em 3em;
+	padding: 0 3em 0.5em 0;
 }
 
 .CopyRight > p {
