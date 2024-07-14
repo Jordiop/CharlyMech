@@ -1,7 +1,13 @@
 import NavigationBar from './NavigationBar/NavigationBar';
 import Footer from './Footer/Footer';
+import RivePhone from './RivePhone/RivePhone';
+import CMTitle from './UIComponents/CMTitle';
+import CMSubtitle from './UIComponents/CMSubtitle';
 
 export {
 	NavigationBar,
-	Footer
+	Footer,
+	RivePhone,
+	CMTitle,
+	CMSubtitle
 } 
