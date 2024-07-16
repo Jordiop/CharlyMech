@@ -3,10 +3,11 @@ import Skills from './Skills/Skills';
 import About from './About/About';
 import Contact from './Contact/Contact';
 
+const pages = {
+	'home': Home,
+	'skills': Skills,
+	'about': About,
+	'contact': Contact,
+};
 
-export {
-	Home,
-	Skills,
-	About,
-	Contact
-}
+export default pages;

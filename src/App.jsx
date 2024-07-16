@@ -1,15 +1,20 @@
+import { useState } from 'react';
 import { NavigationBar, Footer } from './components/components.js';
-import { Home, Skills, About, Contact } from './pages/pages.js';
+import pages from './pages/pages'
+import useNavigationStore from './stores/navigationStore.js';
 import "./App.css";
 
 function App() {
+  // const [currentPage, setCurrentPage] = useState('home');
+  const { page } = useNavigationStore();
+  const CurrentPage = pages[page];
 
   return (
     <>
       <div className='App'>
         <nav><NavigationBar /></nav>
         <main>
-          <Home />
+          <CurrentPage />
         </main>
         <footer><Footer /></footer>
       </div>
