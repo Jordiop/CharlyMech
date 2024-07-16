@@ -20,8 +20,17 @@
 	font-weight: bold;
 	cursor: pointer;
 	transition: 300ms;
+	text-transform: capitalize;
 }
 
 .NavigationItem:hover {
 	opacity: 1;
+}
+
+.NavigationItem.active {
+	color: #0553b1;
+	opacity: 1;
+	/* Bottom element! Underlined temporary*/
+	text-decoration: underline;
+	transition: 300ms;
 }
