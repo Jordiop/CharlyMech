@@ -1,11 +1,9 @@
-import { useState } from 'react';
 import { NavigationBar, Footer } from './components/components.js';
 import pages from './pages/pages'
 import useNavigationStore from './stores/navigationStore.js';
 import "./App.css";
 
 function App() {
-  // const [currentPage, setCurrentPage] = useState('home');
   const { page } = useNavigationStore();
   const CurrentPage = pages[page];
 
