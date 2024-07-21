@@ -1,0 +1,14 @@
+.TeckSkillsSection {
+	margin-bottom: 2em;
+}
+
+.TechSkillsDescriptionFocus {
+	color: #fafafa;
+}
+
+.AccordionDetails {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	column-gap: 1em;
+	row-gap: 2em;
+}
