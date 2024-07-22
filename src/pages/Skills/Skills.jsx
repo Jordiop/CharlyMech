@@ -1,6 +1,7 @@
-import { CMTitle, CMSubtitle, TechSkill } from '../../components/components.js';
+import { CMTitle, CMSubtitle, TechSkill, ProjectCard } from '../../components/components.js';
 import style from './Skills.module.css';
 import { languages, frameworks, others } from '../../models/TechSkill.js'
+import { projects } from '../../models/Project.js'
 import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { IoIosArrowDown } from "react-icons/io";
@@ -36,9 +37,23 @@ const StyledAccordionDetailsMUI = styled(AccordionDetails)(() => ({
 export default function Skills() {
 	return (
 		<>
-			<section className={style.TeckSkillsSection}>
+			<section className={style.Section}>
 				<CMTitle
-					fontSize={46}
+					fontSize={38}
+				>Projects</CMTitle>
+				<CMSubtitle
+					bold={false}
+					fontSize={18}
+				>
+					These are some of the projects I hava made so far or still developing until today.
+				</CMSubtitle>
+				<div className={style.ProjectsContainer}>
+					<ProjectCard project={projects[0]} />
+				</div>
+			</section>
+			<section className={style.Section}>
+				<CMTitle
+					fontSize={38}
 				>Technical Skills</CMTitle>
 				<CMSubtitle
 					bold={false}
@@ -54,7 +69,7 @@ export default function Skills() {
 						</StyledAccordionSummaryMUI>
 						<StyledAccordionDetailsMUI>
 							<div className={style.AccordionDetails}>
-								{languages.map((skill, index) => (
+								{Object.values(languages).map((skill, index) => (
 									<TechSkill techSkill={skill} key={index} />
 								))}
 							</div>
@@ -67,7 +82,7 @@ export default function Skills() {
 						</StyledAccordionSummaryMUI>
 						<StyledAccordionDetailsMUI>
 							<div className={style.AccordionDetails}>
-								{frameworks.map((skill, index) => (
+								{Object.values(frameworks).map((skill, index) => (
 									<TechSkill techSkill={skill} key={index} />
 								))}
 							</div>
@@ -80,7 +95,7 @@ export default function Skills() {
 						</StyledAccordionSummaryMUI>
 						<StyledAccordionDetailsMUI>
 							<div className={style.AccordionDetails}>
-								{others.map((skill, index) => (
+								{Object.values(others).map((skill, index) => (
 									<TechSkill techSkill={skill} key={index} />
 								))}
 							</div>
