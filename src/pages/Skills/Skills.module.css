@@ -1,5 +1,12 @@
-.TeckSkillsSection {
+.Section {
 	margin-bottom: 2em;
+}
+
+.ProjectsContainer {
+	padding: 1em 3em 1em 3em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .TechSkillsDescriptionFocus {

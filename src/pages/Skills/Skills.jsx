@@ -48,7 +48,9 @@ export default function Skills() {
 					These are some of the projects I hava made so far or still developing until today.
 				</CMSubtitle>
 				<div className={style.ProjectsContainer}>
-					<ProjectCard project={projects[0]} />
+					{projects.map((proj, index) => (
+						<ProjectCard project={proj} key={index} />
+					))}
 				</div>
 			</section>
 			<section className={style.Section}>
