@@ -6,6 +6,8 @@ import CMSubtitle from './UIComponents/CMSubtitle';
 import TypeWriter from './UIComponents/TypeWriter';
 import TechSkill from './TechSkill/TechSkill';
 import ExpertiseLevel from './ExpertiseLevel/ExpertiseLevel';
+import ProjectCard from './ProjectCard/ProjectCard';
+import IconedLabel from './IconedLabel/IconedLabel';
 
 export {
 	NavigationBar,
@@ -15,5 +17,7 @@ export {
 	CMSubtitle,
 	TypeWriter,
 	TechSkill,
-	ExpertiseLevel
+	ExpertiseLevel,
+	ProjectCard,
+	IconedLabel
 } 
