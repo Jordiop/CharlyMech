@@ -1,0 +1,48 @@
+.ProjectCard {
+	cursor: pointer;
+	width: 650px;
+	height: 225px;
+	border-radius: 5px;
+	background-color: #393c4080;
+	transition: 300ms;
+	margin: 1em 0 1em 0;
+	padding: 16px;
+	display: flex;
+	gap: 16px;
+}
+
+.ProjectCard:hover {
+	background-color: #393c40;
+}
+
+.ProjectImg {
+	flex: 1 1 33%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ProjectImg img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+.ProjectContent {
+	flex: 2 1 66%;
+	position: relative;
+}
+
+.ProjectLabelsRow {
+	display: flex;
+	flex-direction: row;
+}
+
+.ProjectTechs {
+	margin-bottom: 0.5em;
+}
+
+.ProjectLinks {
+	position: absolute;
+	bottom: 0;
+}
