@@ -33,7 +33,7 @@ const projects = [
 		'ToBook App',
 		false,
 		[languages['java']],
-		'Swing designed app that allows you to mark your favourite and read books from a catalog (OpenLibra API as source and data auto-saved in MySQL database).',
+		'Swing UI app to mark favourite and read books from a catalog. First "full" Java program.',
 		'TODO',
 		[new ProjectLink(ProjectLinkType.GITHUB, 'https://github.com/CharlyMech/ToBook-App')],
 		'/assets/img/projects/tobook_app.png'),
