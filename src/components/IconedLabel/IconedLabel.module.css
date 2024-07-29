@@ -1,3 +1,8 @@
+.IconedLabelLink {
+	text-decoration: none;
+	color: inherit;
+}
+
 .IconedLabel {
 	display: flex;
 	align-items: center;

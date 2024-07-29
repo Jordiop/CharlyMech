@@ -26,7 +26,7 @@ function ProjectCard({ project }) {
 					</div>
 					<CMSubtitle bold={false} fontSize={16}>{project['shortDescr']}</CMSubtitle>
 					<div className={`${style.ProjectLabelsRow} ${style.ProjectLinks}`}>
-						{linkList.map((link, index) => <IconedLabel key={index} icon={link['type']['icon']} name={link['type']['name']} clickable={true} />)}
+						{linkList.map((link, index) => <IconedLabel key={index} icon={link['type']['icon']} name={link['type']['name']} href={link['url']} />)}
 					</div>
 				</div>
 			</div>

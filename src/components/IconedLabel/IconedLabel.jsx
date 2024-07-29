@@ -1,23 +1,36 @@
 import PropTypes from 'prop-types';
 import style from './IconedLabel.module.css'
 
-function IconedLabel({ icon, name, bgColor = '#989898', fontColor = '#111111', borderRadius = '10px', height = '30px', clickable = false }) {
+function IconedLabel({ icon, name, bgColor = '#989898', fontColor = '#111111', borderRadius = '10px', height = '30px', href }) {
 	const IconComponent = icon;
 	const labelStyle = {
 		color: fontColor,
 		backgroundColor: bgColor,
 		borderRadius: borderRadius,
 		height: height,
-		cursor: clickable ? 'pointer' : 'auto',
+		cursor: href ? 'pointer' : 'auto',
 	}
-	return (
-		<>
-			<div style={labelStyle} className={style.IconedLabel}>
-				<IconComponent className={style.LabelIcon} />
-				<h4>{name}</h4>
-			</div>
-		</>
-	)
+	if (href) {
+		return (
+			<>
+				<a className={style.IconedLabelLink} href={href} target='_blank'>
+					<div style={labelStyle} className={style.IconedLabel}>
+						<IconComponent className={style.LabelIcon} />
+						<h4>{name}</h4>
+					</div>
+				</a>
+			</>
+		)
+	} else {
+		return (
+			<>
+				<div style={labelStyle} className={style.IconedLabel}>
+					<IconComponent className={style.LabelIcon} />
+					<h4>{name}</h4>
+				</div>
+			</>
+		)
+	}
 }
 
 IconedLabel.propTypes = {
@@ -27,7 +40,7 @@ IconedLabel.propTypes = {
 	fontColor: PropTypes.string,
 	borderRadius: PropTypes.string,
 	height: PropTypes.string,
-	clickable: PropTypes.bool,
+	href: PropTypes.string,
 }
 
 export default IconedLabel;
