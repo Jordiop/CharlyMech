@@ -40,22 +40,6 @@ export default function Skills() {
 			<section className={style.Section}>
 				<CMTitle
 					fontSize={38}
-				>Projects</CMTitle>
-				<CMSubtitle
-					bold={false}
-					fontSize={18}
-				>
-					These are some of the projects I hava made so far or still developing until today.
-				</CMSubtitle>
-				<div className={style.ProjectsContainer}>
-					{projects.map((proj, index) => (
-						<ProjectCard project={proj} key={index} />
-					))}
-				</div>
-			</section>
-			<section className={style.Section}>
-				<CMTitle
-					fontSize={38}
 				>Technical Skills</CMTitle>
 				<CMSubtitle
 					bold={false}
@@ -103,6 +87,22 @@ export default function Skills() {
 							</div>
 						</StyledAccordionDetailsMUI>
 					</StyledAccordionMUI>
+				</div>
+			</section>
+			<section className={style.Section}>
+				<CMTitle
+					fontSize={38}
+				>Projects</CMTitle>
+				<CMSubtitle
+					bold={false}
+					fontSize={18}
+				>
+					These are some of the projects I hava made so far or still developing until today.
+				</CMSubtitle>
+				<div className={style.ProjectsContainer}>
+					{projects.map((proj, index) => (
+						<ProjectCard project={proj} key={index} />
+					))}
 				</div>
 			</section>
 		</>
