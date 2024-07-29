@@ -97,7 +97,7 @@ export default function Skills() {
 					bold={false}
 					fontSize={18}
 				>
-					These are some of the projects I hava made so far or still developing until today.
+					These are some of the projects I have made so far or still developing until today.
 				</CMSubtitle>
 				<div className={style.ProjectsContainer}>
 					{projects.map((proj, index) => (
