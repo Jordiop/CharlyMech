@@ -15,6 +15,39 @@
 	background-color: #393c40;
 }
 
+.ProjectStatus {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	background: #40464a;
+	padding: 5px 10px;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+.PulseIcon {
+	color: green;
+	animation: pulse 1.5s infinite;
+	margin-left: 5px;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		opacity: 0.7;
+	}
+	70% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(0.95);
+		opacity: 0.7;
+	}
+}
+
 .ProjectImg {
 	flex: 1 1 33%;
 	display: flex;

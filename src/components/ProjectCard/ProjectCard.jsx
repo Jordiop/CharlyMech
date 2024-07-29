@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import style from './ProjectCard.module.css';
 import { CMTitle, CMSubtitle, IconedLabel } from '../components';
+import { IoIosPulse } from 'react-icons/io';
 
 function ProjectCard({ project }) {
 	const techList = project['techs'];
@@ -12,6 +13,12 @@ function ProjectCard({ project }) {
 					<img src={project['imgSrc']} />
 				</div>
 				<div className={style.ProjectContent}>
+					{project.developing && (
+						<div className={style.ProjectStatus}>
+							<span>Developing</span>
+							<IoIosPulse className={style.PulseIcon} />
+						</div>
+					)}
 					<CMTitle>{project['title']}</CMTitle>
 					<div className={`${style.ProjectLabelsRow} ${style.ProjectTechs}`}>
 						{techList.map((tech, index) =>
