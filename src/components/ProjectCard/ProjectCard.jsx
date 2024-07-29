@@ -6,9 +6,14 @@ import { IoIosPulse } from 'react-icons/io';
 function ProjectCard({ project }) {
 	const techList = project['techs'];
 	const linkList = project['links'];
+
+	const showDialog = () => {
+		console.log(`This will show a dialog about the ${project['title']} project`);
+	}
+
 	return (
 		<>
-			<div className={style.ProjectCard}>
+			<div className={style.ProjectCard} onClick={showDialog}>
 				<div className={style.ProjectImg}>
 					<img src={project['imgSrc']} />
 				</div>
