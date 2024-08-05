@@ -3,7 +3,7 @@
 	padding: 15px;
 	background-color: #393c4080;
 	border-radius: 100px;
-	box-shadow: 0px 3px 10px #151515, inset 0px 0px 30px #40464a;
+	box-shadow: 0px 3px 10px #151515;
 	backdrop-filter: blur(10px);
 	z-index: 10;
 }
