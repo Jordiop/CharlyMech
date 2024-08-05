@@ -1,5 +1,10 @@
-import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {
+	PiLinktreeLogoBold,
+	PiLinkedinLogoBold,
+	PiGithubLogoBold,
+	PiInstagramLogoBold,
+	PiEnvelopeSimpleBold
+} from 'react-icons/pi';
 
 class SocialMedia {
 	constructor(name, icon, link, target) {
@@ -10,11 +15,12 @@ class SocialMedia {
 	}
 }
 
-const socialMedia = [
-	new SocialMedia('LinkedIn', faLinkedin, 'https://www.linkedin.com/in/carlos-sanchez-recio-77a286243/', '_blank'),
-	new SocialMedia('GitHub', faGithub, 'https://github.com/CharlyMech', '_blank'),
-	new SocialMedia('Instagram', faInstagram, 'https://www.instagram.com/charly.mech/', '_blank'),
-	new SocialMedia('Mail', faEnvelope, 'mailto:sanchezreciocarlos99@gmail.com', '_self'),
+const links = [
+	new SocialMedia('LinkedIn', PiLinkedinLogoBold, 'https://www.linkedin.com/in/carlos-sanchez-recio-77a286243/', '_blank'),
+	new SocialMedia('LinkTree', PiLinktreeLogoBold, 'https://linktr.ee/charlymech', '_blank'),
+	new SocialMedia('GitHub', PiGithubLogoBold, 'https://github.com/CharlyMech', '_blank'),
+	new SocialMedia('Instagram', PiInstagramLogoBold, 'https://www.instagram.com/charly.mech/', '_blank'),
+	new SocialMedia('Mail', PiEnvelopeSimpleBold, 'mailto:sanchezreciocarlos99@gmail.com', '_self'),
 ];
 
-export default socialMedia;
+export default links;
