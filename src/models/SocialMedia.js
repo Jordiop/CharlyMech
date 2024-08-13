@@ -2,6 +2,7 @@ import {
 	PiLinktreeLogoBold,
 	PiLinkedinLogoBold,
 	PiGithubLogoBold,
+	PiMediumLogoFill,
 	PiInstagramLogoBold,
 	PiEnvelopeSimpleBold
 } from 'react-icons/pi';
@@ -19,6 +20,7 @@ const links = [
 	new SocialMedia('LinkedIn', PiLinkedinLogoBold, 'https://www.linkedin.com/in/carlos-sanchez-recio-77a286243/', '_blank'),
 	new SocialMedia('LinkTree', PiLinktreeLogoBold, 'https://linktr.ee/charlymech', '_blank'),
 	new SocialMedia('GitHub', PiGithubLogoBold, 'https://github.com/CharlyMech', '_blank'),
+	new SocialMedia('Medium', PiMediumLogoFill, 'https://medium.com/@CharlyMech', '_blank'),
 	new SocialMedia('Instagram', PiInstagramLogoBold, 'https://www.instagram.com/charly.mech/', '_blank'),
 	new SocialMedia('Mail', PiEnvelopeSimpleBold, 'mailto:sanchezreciocarlos99@gmail.com', '_self'),
 ];
