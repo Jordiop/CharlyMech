@@ -33,6 +33,7 @@
 
 .FooterNavigationItem {
 	cursor: pointer;
+	text-transform: capitalize;
 }
 
 .SocialMedia {
