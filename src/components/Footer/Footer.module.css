@@ -32,8 +32,19 @@
 }
 
 .FooterNavigationItem {
+	padding: 1px;
 	cursor: pointer;
 	text-transform: capitalize;
+	transition: 300ms;
+}
+
+.FooterNavigationItem:hover {
+	color: #fafafa;
+}
+
+.FooterNavigationItem.active {
+	color: #fafafa;
+	border-bottom: 1px solid #fafafa;
 }
 
 .SocialMedia {

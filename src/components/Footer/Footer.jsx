@@ -2,9 +2,11 @@ import style from './Footer.module.css' //!
 import links from '/src/models/SocialMedia.js'
 import navigationItems from '../../models/NavigationItem';
 import { CMSubtitle, SeparationBar } from '../components';
-
+import useNavigationStore from '../../stores/navigationStore'; //!
 
 function Footer() {
+	const { page, setPage } = useNavigationStore();
+
 	return (
 		<>
 			<div className={style.Footer}>
@@ -14,11 +16,10 @@ function Footer() {
 							<ul className={style.FooterNavigationList}>
 								{
 									navigationItems.map((item, index) => (
-										<span key={index} className={style.FooterNavigationItem}>
-											<CMSubtitle bold={false} fontSize={18}>
-												{item.name}
-											</CMSubtitle>
-										</span>
+										<CMSubtitle bold={false} fontSize={18} key={index}>
+											<span className={`${style.FooterNavigationItem} ${page === item.name ? `${style.active}` : ''}`} onClick={() => setPage(item.name)}>{item.name}</span>
+										</CMSubtitle>
+
 									))
 								}
 							</ul>
@@ -44,7 +45,7 @@ function Footer() {
 						<CMSubtitle bold={false} fontSize={16}>© 2024 Carlos Sánchez Recio. All rights reserved.</CMSubtitle>
 					</div>
 				</div>
-			</div>
+			</div >
 		</>
 	);
 }
