@@ -6,21 +6,29 @@
 
 .Footer {
 	background-color: #1a1d1f;
+}
+
+.FooterContent {
 	display: flex;
 	flex-direction: column;
+	margin: 0 250px 0 250px;
 }
 
 .Links {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	padding: 3em 15em 2em 15em;
+	gap: 100px;
+	padding: 3em 5em 2em 5em;
+}
+
+.FooterNavigation {
+	width: 400px;
 }
 
 .FooterNavigationList {
-	width: 600px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .FooterNavigationItem {
@@ -28,13 +36,13 @@
 }
 
 .SocialMedia {
-	width: 600px;
+	width: 400px;
 }
 
 .SocialMediaList {
 	list-style-type: none;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -52,12 +60,13 @@
 	cursor: pointer;
 	transition: 300ms;
 }
-.Social > a {
-	text-decoration: none;
-	color: inherit;
-}
 
 .CopyRight {
 	padding: 0.5em 0 0.5em 0;
 	text-align: center;
+}
+
+.FooterSeparationBar {
+	display: flex;
+	justify-content: center;
 }
