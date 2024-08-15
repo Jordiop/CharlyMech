@@ -25,7 +25,6 @@ export default function Contact() {
 	return (
 		<>
 			<section className={`${style.Section} ${style.Contact}`}>
-				<CMTitle fontSize={38}>You can see all about what I do and contact me via:</CMTitle>
 				<ul className={style.ContactList}>
 					{
 						links.map((link, index) => (
