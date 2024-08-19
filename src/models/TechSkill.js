@@ -52,11 +52,11 @@ const frameworks = {
 	'flutter': new TechSkill(SiFlutter, 'Flutter', 3, "Cross-platform apps with several packages like BLoC, Dio, etc.", "#04599c"),
 	'react-native': new TechSkill(SiCreatereactapp, 'React Navite', 1, "Currently learning.", "#26d9fd"),
 	'fast-api': new TechSkill(SiFastapi, 'FastAPI', 2, "Test library to create high-performance APIs.", "#009688"),
-	'spring-boot': new TechSkill(SiSpringboot, 'SpringBoot', 1, "Test framework to create data source services like APIs and microservices.", "#6cb33e"),
+	// 'spring-boot': new TechSkill(SiSpringboot, 'SpringBoot', 1, "Test framework to create data source services like APIs and microservices.", "#6cb33e"),
 	'nestjs': new TechSkill(SiNestjs, 'NestJS', 2, "Used to for maintenance and new functionalities with TypeScript.", "#ea2858"),
 	'react': new TechSkill(SiReact, 'React', 3, "First JavaScript framework/library to learn for front-end development.", "#26d9fd"),
 	'bootstrap': new TechSkill(SiBootstrap, 'Bootstrap', 2, "Learned  during ASIR course for easy and fast front-end development.", "#8411fa"),
-	'django': new TechSkill(SiDjango, 'Django', 1, "Currently learning.", "#092e20"),
+	// 'django': new TechSkill(SiDjango, 'Django', 1, "Currently learning.", "#092e20"),
 };
 const others = {
 	'android': new TechSkill(SiAndroid, 'Android', 2, "Basic Android configuration knowledge for native apps and use of Android Studio.", "#a4c639"),

@@ -24,10 +24,10 @@ const projects = [
 	new Project(
 		'GengarAPI',
 		true,
-		[languages['kotlin'], frameworks['spring-boot']],
-		'API designed for FlutterDex project to provide formatted data from PokeAPI as source of data.',
+		[languages['typescript'], frameworks['nestjs']],
+		'API designed to provide data for FlutterDex app. PokeAPI as data source, this API acts as a data formatter.',
 		"TODO",
-		[new ProjectLink(ProjectLinkType.GITHUB, 'https://github.com/CharlyMech/gengar')],
+		[new ProjectLink(ProjectLinkType.GITHUB, 'https://github.com/CharlyMech/gengar-api')],
 		'/assets/img/projects/gengarapi_project_box.png'),
 	new Project(
 		'ToBook App',
