@@ -9,6 +9,7 @@ import TechSkill from './TechSkill/TechSkill';
 import ExpertiseLevel from './ExpertiseLevel/ExpertiseLevel';
 import ProjectCard from './ProjectCard/ProjectCard';
 import IconedLabel from './IconedLabel/IconedLabel';
+import CMCard from './CMCard/CMCard';
 
 export {
 	NavigationBar,
@@ -21,5 +22,6 @@ export {
 	TechSkill,
 	ExpertiseLevel,
 	ProjectCard,
-	IconedLabel
+	IconedLabel,
+	CMCard
 } 
