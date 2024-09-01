@@ -25,7 +25,7 @@ class TimelineEvent {
 const timelineEvents = [
 	new TimelineEvent(
 		'First code encounter',
-		'Learned what code is during high school. Coded in <i>TurboPascal</i> and some JavaScript.',
+		'Learned what code is during high school. Coded in <i>TurboPascal</i> and some <i>JavaScript</i>.',
 		'During my last 2 years at high school I choose the scientific and technological path so I had 2 subjects designed for engineering stuff. IT was the first one who showed me what code was and its potential to build my own tools (even though we used TurboPascal as a programming language). Then, last year in \'Industrial Technology\' (translation for <i>Tecnología Industrial</i> subject) I learned how to program LEGO robots and my class made a sumo competition (mine looped infinitely and lost, <b>NICE</b>) and at the final months the teacher showed us some basic (and old) JavaScript. I wasn\'t paying a lot of attention to be honest (sorry teacher).',
 		TimelineEventType.CODEVENT,
 		'2015 - 2017',
