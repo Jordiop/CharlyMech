@@ -1,3 +1,10 @@
+import {
+	HiOutlineChatBubbleLeftEllipsis,
+	HiOutlineHome,
+	HiOutlineUser,
+	HiOutlineWrenchScrewdriver
+} from "react-icons/hi2";
+
 class NavigationItem {
 	constructor(name, icon, link) {
 		this.name = name;
@@ -7,10 +14,10 @@ class NavigationItem {
 }
 
 const navigationItems = [
-	new NavigationItem('home', 'ICON', 'LINK'),
-	new NavigationItem('skills', 'ICON', 'LINK'),
-	new NavigationItem('about', 'ICON', 'LINK'),
-	new NavigationItem('contact', 'ICON', 'LINK'),
+	new NavigationItem('home', HiOutlineHome),
+	new NavigationItem('skills', HiOutlineWrenchScrewdriver),
+	new NavigationItem('about', HiOutlineUser),
+	new NavigationItem('contact', HiOutlineChatBubbleLeftEllipsis),
 ];
 
 export default navigationItems;

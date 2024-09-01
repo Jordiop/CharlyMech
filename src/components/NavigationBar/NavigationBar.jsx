@@ -9,14 +9,16 @@ function NavigationBar() {
 		<>
 			<div className={style.NavigationBar}>
 				<ul className={style.NavigationList}>{
-					navigationItems.map((item, index) => (
-						<li
+					navigationItems.map((item, index) => {
+						const NavigationItem = item.icon;
+						return (<li
 							className={`${style.NavigationItem} ${page === item.name ? `${style.active}` : ''}`} key={index}
 							onClick={() => setPage(item.name)}
 						>
-							<span>{item.name}</span>
-						</li>
-					))
+							<span className={style.NavigationItemClickable}>{<NavigationItem className={style.NavigationItemIcon} />}{item.name}</span>
+						</li>)
+
+					})
 				}</ul>
 			</div >
 		</>
