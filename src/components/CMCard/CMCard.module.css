@@ -1,12 +1,7 @@
 .CardContainer {
 	cursor: pointer;
-	width: 650px;
-	height: 235px;
-	border-radius: 5px;
 	background-color: #393c4080;
 	transition: 300ms;
-	margin: 1em 0 1em 0;
-	padding: 16px;
 	display: flex;
 	gap: 16px;
 }
