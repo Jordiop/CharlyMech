@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import style from './CMCard.module.css';
 
-function CMCard({ width = 'fit-content', height = 'fit-content', borderRadius = '5px', padding = '1em', margin = '0 auto', children }) {
+function CMCard({ width = 'fit-content', height = 'fit-content', borderRadius = '5px', padding = '1em', margin = '0 auto', cardOnClickMethod = null, children }) {
 	const customStyle = {
 		width: width,
 		height: height,
@@ -11,7 +11,7 @@ function CMCard({ width = 'fit-content', height = 'fit-content', borderRadius = 
 	};
 	return (
 		<>
-			<div className={style.CardContainer} style={customStyle}>
+			<div className={style.CardContainer} style={customStyle} onClick={cardOnClickMethod}>
 				{children}
 			</div>
 		</>
@@ -24,6 +24,7 @@ CMCard.propTypes = {
 	borderRadius: PropTypes.string,
 	padding: PropTypes.string,
 	margin: PropTypes.string,
+	cardOnClickMethod: PropTypes.func,
 	children: PropTypes.node.isRequired
 }
 
