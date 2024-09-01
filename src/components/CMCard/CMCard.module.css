@@ -3,6 +3,7 @@
 	background-color: #393c4080;
 	transition: 300ms;
 	display: flex;
+	flex-direction: column;
 	gap: 16px;
 }
 
