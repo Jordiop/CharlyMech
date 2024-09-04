@@ -1,5 +1,11 @@
 .Section {
+	max-width: 1200px;
+	padding: 0 100px 0 100px;
 	margin-bottom: 3em;
+}
+
+.Section > div {
+	margin-bottom: 2.5em;
 }
 
 .ProjectsContainer {

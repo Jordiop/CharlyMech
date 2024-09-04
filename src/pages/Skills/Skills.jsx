@@ -38,71 +38,73 @@ export default function Skills() {
 	return (
 		<>
 			<section className={style.Section}>
-				<CMTitle
-					fontSize={38}
-				>Technical Skills</CMTitle>
-				<CMSubtitle
-					bold={false}
-					fontSize={18}
-				>
-					Mainly focused on <b className={style.TechSkillsDescriptionFocus}>mobile app development</b>, being able to create native or cross-platform applications, with self-taught expertise in back-end and services development.
-				</CMSubtitle>
-				{/* Languages */}
-				<div className={style.Accordion}>
-					<StyledAccordionMUI>
-						<StyledAccordionSummaryMUI id="panel-header1" aria-controls="panel-content" expandIcon={<IoIosArrowDown />}>
-							<CMTitle fontSize={20}>Languages</CMTitle>
-						</StyledAccordionSummaryMUI>
-						<StyledAccordionDetailsMUI>
-							<div className={style.AccordionDetails}>
-								{Object.values(languages).map((skill, index) => (
-									<TechSkill techSkill={skill} key={index} />
-								))}
-							</div>
-						</StyledAccordionDetailsMUI>
-					</StyledAccordionMUI>
-					{/* Frameworks */}
-					<StyledAccordionMUI>
-						<StyledAccordionSummaryMUI id="panel-header2" aria-controls="panel-content" expandIcon={<IoIosArrowDown />}>
-							<CMTitle fontSize={20}>Frameworks and libraries</CMTitle>
-						</StyledAccordionSummaryMUI>
-						<StyledAccordionDetailsMUI>
-							<div className={style.AccordionDetails}>
-								{Object.values(frameworks).map((skill, index) => (
-									<TechSkill techSkill={skill} key={index} />
-								))}
-							</div>
-						</StyledAccordionDetailsMUI>
-					</StyledAccordionMUI>
-					{/* Other */}
-					<StyledAccordionMUI>
-						<StyledAccordionSummaryMUI id="panel-header3" aria-controls="panel-content" expandIcon={<IoIosArrowDown />}>
-							<CMTitle fontSize={20}>Other</CMTitle>
-						</StyledAccordionSummaryMUI>
-						<StyledAccordionDetailsMUI>
-							<div className={style.AccordionDetails}>
-								{Object.values(others).map((skill, index) => (
-									<TechSkill techSkill={skill} key={index} />
-								))}
-							</div>
-						</StyledAccordionDetailsMUI>
-					</StyledAccordionMUI>
+				<div>
+					<CMTitle
+						fontSize={38}
+					>Technical Skills</CMTitle>
+					<CMSubtitle
+						bold={false}
+						fontSize={18}
+					>
+						Mainly focused on <b className={style.TechSkillsDescriptionFocus}>mobile app development</b>, being able to create native or cross-platform applications, with self-taught expertise in back-end and services development.
+					</CMSubtitle>
+					{/* Languages */}
+					<div className={style.Accordion}>
+						<StyledAccordionMUI>
+							<StyledAccordionSummaryMUI id="panel-header1" aria-controls="panel-content" expandIcon={<IoIosArrowDown />}>
+								<CMTitle fontSize={20}>Languages</CMTitle>
+							</StyledAccordionSummaryMUI>
+							<StyledAccordionDetailsMUI>
+								<div className={style.AccordionDetails}>
+									{Object.values(languages).map((skill, index) => (
+										<TechSkill techSkill={skill} key={index} />
+									))}
+								</div>
+							</StyledAccordionDetailsMUI>
+						</StyledAccordionMUI>
+						{/* Frameworks */}
+						<StyledAccordionMUI>
+							<StyledAccordionSummaryMUI id="panel-header2" aria-controls="panel-content" expandIcon={<IoIosArrowDown />}>
+								<CMTitle fontSize={20}>Frameworks and libraries</CMTitle>
+							</StyledAccordionSummaryMUI>
+							<StyledAccordionDetailsMUI>
+								<div className={style.AccordionDetails}>
+									{Object.values(frameworks).map((skill, index) => (
+										<TechSkill techSkill={skill} key={index} />
+									))}
+								</div>
+							</StyledAccordionDetailsMUI>
+						</StyledAccordionMUI>
+						{/* Other */}
+						<StyledAccordionMUI>
+							<StyledAccordionSummaryMUI id="panel-header3" aria-controls="panel-content" expandIcon={<IoIosArrowDown />}>
+								<CMTitle fontSize={20}>Other</CMTitle>
+							</StyledAccordionSummaryMUI>
+							<StyledAccordionDetailsMUI>
+								<div className={style.AccordionDetails}>
+									{Object.values(others).map((skill, index) => (
+										<TechSkill techSkill={skill} key={index} />
+									))}
+								</div>
+							</StyledAccordionDetailsMUI>
+						</StyledAccordionMUI>
+					</div>
 				</div>
-			</section>
-			<section className={style.Section}>
-				<CMTitle
-					fontSize={38}
-				>Projects</CMTitle>
-				<CMSubtitle
-					bold={false}
-					fontSize={18}
-				>
-					These are some of the projects I have made so far or still developing until today.
-				</CMSubtitle>
-				<div className={style.ProjectsContainer}>
-					{projects.map((proj, index) => (
-						<ProjectCard project={proj} key={index} />
-					))}
+				<div>
+					<CMTitle
+						fontSize={38}
+					>Projects</CMTitle>
+					<CMSubtitle
+						bold={false}
+						fontSize={18}
+					>
+						These are some of the projects I have made so far or still developing until today.
+					</CMSubtitle>
+					<div className={style.ProjectsContainer}>
+						{projects.map((proj, index) => (
+							<ProjectCard project={proj} key={index} />
+						))}
+					</div>
 				</div>
 			</section>
 		</>
