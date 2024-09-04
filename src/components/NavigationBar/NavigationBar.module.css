@@ -41,7 +41,5 @@
 .NavigationItem.active {
 	color: #0553b1;
 	opacity: 1;
-	/* Bottom element! Underlined temporary*/
-	text-decoration: underline;
 	transition: 300ms;
 }
