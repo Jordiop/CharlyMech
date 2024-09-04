@@ -38,7 +38,7 @@ export default function Skills() {
 	return (
 		<>
 			<section className={style.Section}>
-				<div>
+				<div className={style.SkillContent}>
 					<CMTitle
 						fontSize={38}
 					>Technical Skills</CMTitle>
@@ -90,7 +90,7 @@ export default function Skills() {
 						</StyledAccordionMUI>
 					</div>
 				</div>
-				<div>
+				<div className={style.SkillContent}>
 					<CMTitle
 						fontSize={38}
 					>Projects</CMTitle>
@@ -102,7 +102,7 @@ export default function Skills() {
 					</CMSubtitle>
 					<div className={style.ProjectsContainer}>
 						{projects.map((proj, index) => (
-							<ProjectCard project={proj} key={index} />
+							<ProjectCard className={style.ProjectCard} project={proj} key={index} />
 						))}
 					</div>
 				</div>

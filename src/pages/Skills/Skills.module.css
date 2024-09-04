@@ -4,7 +4,7 @@
 	margin-bottom: 3em;
 }
 
-.Section > div {
+.SkillContent {
 	margin-bottom: 2.5em;
 }
 
@@ -24,4 +24,21 @@
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	column-gap: 1em;
 	row-gap: 2em;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1400px) {
+	.Section {
+		max-width: 1000px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.Section {
+		max-width: 600px;
+		padding: 0;
+	}
+
+	.ProjectsContainer {
+		padding: 0;
+	}
 }
