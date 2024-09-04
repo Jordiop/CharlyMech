@@ -1,14 +1,14 @@
 .Section {
-	margin-bottom: 3em;
-}
-
-.Contact {
-	margin: 2em 15em 3em 15em;
-	text-align: center;
+	max-width: 1200px;
+	padding: 0 100px 0 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 80px;
 }
 
 .ContactList {
-	margin-top: 2em;
 	list-style: none;
 	display: flex;
 	flex-direction: column;
@@ -43,18 +43,11 @@
 	color: #fafafa;
 }
 
-.Cv {
-	margin-bottom: 3em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .CVDownloadButton {
 	background-color: #0553b1;
 	transition: 300ms;
 	cursor: pointer;
-	width: 400px;
+	max-width: 400px;
 	padding: 1.5em 2em 1.5em 2em;
 	border-radius: 20px;
 	box-shadow: 0px 3px 10px #151515;

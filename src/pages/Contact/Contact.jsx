@@ -24,22 +24,22 @@ export default function Contact() {
 	}
 	return (
 		<>
-			<section className={`${style.Section} ${style.Contact}`}>
-				<ul className={style.ContactList}>
-					{
-						links.map((link, index) => (
-							<a href={link.link} target={link.target} key={index} className={style.ContactItem}><li>
-								<CMSubtitle fontSize={30} bold={false}>
-									<span className={style.ItemContent}>
-										<link.icon /> {link.name}
-									</span>
-								</CMSubtitle>
-							</li></a>
-						))
-					}
-				</ul>
-			</section>
-			<section className={`${style.Section} ${style.Cv}`}>
+			<section className={style.Section}>
+				<div>
+					<ul className={style.ContactList}>
+						{
+							links.map((link, index) => (
+								<a href={link.link} target={link.target} key={index} className={style.ContactItem}><li>
+									<CMSubtitle fontSize={30} bold={false}>
+										<span className={style.ItemContent}>
+											<link.icon /> {link.name}
+										</span>
+									</CMSubtitle>
+								</li></a>
+							))
+						}
+					</ul>
+				</div>
 				<div className={style.CVDownloadButton} onClick={downloadByLocale}>
 					<CMTitle fontSize={28}>Download my CV</CMTitle>
 				</div>
