@@ -2,32 +2,12 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="icon" type="image/svg" href="/tabicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Carlos' Portfolio</title>
+		<title>Carlos Sánchez Recio</title>
 	</head>
 	<body>
-		<!-- 
-			This page is used only as a redirect controller
-			With JavaScript, check user preferred browser language and redirects
-			to the proper page -> By default redirects to EN page
-
-			Esta página es usada únicamente como controladora de redirección
-			Con JavaScript, se comprueba el idioma de preferencia del navegador 
-			y redirecciona a la página correspondiente -> Por defecto redirecciona
-			a la página en inglés
-		 --></body>
-	<script>
-		// ES: es-ES; es
-		// EN: en; en-US; en-UK
-
-		var userLang = navigator.language || navigator.userLanguage; // Check user preferred language - Comprobar el lenguaje de preferencia
-		const patternES = /es/i; // Define the pattern for ES - Definir el patrón para ES
-
-		if (patternES.test(userLang)) {
-			window.location.href = "html/index.es.html";
-		} else {
-			window.location.href = "html/index.en.html";
-		}
-	</script>
+		<div id="root"></div>
+		<script type="module" src="/src/main.jsx"></script>
+	</body>
 </html>

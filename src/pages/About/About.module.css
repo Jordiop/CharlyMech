@@ -1,0 +1,20 @@
+.Section {
+	margin-bottom: 3em;
+}
+
+.VerticalTimelineElement {
+	box-shadow: none !important;
+}
+
+.VerticalTimelineElementDate {
+	margin: 0 1em 0 1em;
+}
+
+.VerticalTimelineElementIcon {
+	cursor: pointer;
+	transition: 300ms;
+}
+
+.VerticalTimelineElementIcon:hover {
+	scale: 1.1;
+}
