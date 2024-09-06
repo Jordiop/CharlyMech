@@ -25,6 +25,7 @@ export default function Contact() {
 	return (
 		<>
 			<section className={style.Section}>
+				<CMTitle>Contact me via:</CMTitle>
 				<div>
 					<ul className={style.ContactList}>
 						{

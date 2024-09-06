@@ -1,7 +1,6 @@
 .FooterContent {
 	display: flex;
 	flex-direction: column;
-	width: 100vw;
 }
 
 .Links {
@@ -74,7 +73,7 @@
 	justify-content: center;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
 	.FooterNavigationList {
 		flex-direction: column;
 		gap: 10px;
