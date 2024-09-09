@@ -8,9 +8,9 @@ export default function Contact() {
 		const locale = (navigator.language || navigator.userLanguage).substring(0, 2);
 		let cvPath;
 		if (locale == 'es' || locale == 'ca') {
-			cvPath = '/assets/cv/2024_carlos_cv_es.pdf';
+			cvPath = '/assets/cv/carlos_cv_ES.pdf';
 		} else {
-			cvPath = '/assets/cv/2024_carlos_cv_en.pdf';
+			cvPath = '/assets/cv/carlos_cv_EN.pdf';
 		}
 
 		const a = document.createElement('a');
