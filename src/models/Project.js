@@ -14,6 +14,13 @@ class Project {
 }
 
 const projects = [
+	new Project('Flutter Kitchen',
+		true,
+		[languages['dart'], frameworks['flutter']],
+		"Flutter packages test field to list my most liked packages or test new ones.",
+		"TODO",
+		[new ProjectLink(ProjectLinkType.GITHUB, "")],
+		"/assets/img/projects/flutter_kitchen_project_box.png"),
 	new Project('FlutterDex',
 		true,
 		[languages['dart'], frameworks['flutter']],
