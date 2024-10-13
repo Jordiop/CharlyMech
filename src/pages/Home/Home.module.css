@@ -1,5 +1,5 @@
 .Section {
-	max-width: 1200px;
+	max-width: 80%;
 	padding: 0 100px 0 100px;
 	margin-bottom: 3em;
 	display: flex;
@@ -42,5 +42,9 @@
 	.HomeContent {
 		flex-direction: column-reverse;
 		align-items: center;
+	}
+
+	.HomeWelcomeHand {
+		display: none;
 	}
 }
